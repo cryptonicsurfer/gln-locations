@@ -55,6 +55,6 @@ if selected_location != 'Visa alla':
         m.zoom_start = 13  # You can adjust this zoom level as needed
 
 # Display the map
-colA, colB, colC = st.columns([3,10,3])
+colA, colB, colC = st.columns([1,10,1])
 with colB:
-    folium_static(m)
+    folium_static(m, width=1000, height=700, )
