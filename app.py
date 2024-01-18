@@ -57,4 +57,4 @@ if selected_location != 'Visa alla':
 # Display the map
 colA, colB, colC = st.columns([1,10,1])
 with colB:
-    folium_static(m, width=1000, height=700, )
+    folium_static(m, width=1000, height=700,)
